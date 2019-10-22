@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "user-0",
+      "name": "Adam",
+      "postIds": []
+    },
+    {
+      "id": "user-1",
+      "name": "John",
+      "postIds": ["post-0", "post-1"]
+    },
+    {
+      "id": "user-2",
+      "name": "Claire",
+      "postIds": ["post-2"]
+    },
+    {
+      "id": "user-3",
+      "name": "Sarah",
+      "postIds": ["post-3", "post-4"]
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-0",
+      "title": "Learning GraphQL",
+      "content": "Covering GraphQL basics",
+      "published": false,
+      "authorId": "user-1"
+    },
+    {
+      "id": "post-1",
+      "title": "Functional Programming in JavaScript",
+      "content": "Covers functional programming concepts",
+      "published": false,
+      "authorId": "user-1"
+    },
+    {
+      "id": "post-2",
+      "title": "React Hooks",
+      "content": "Takes a look at the new React Hooks API",
+      "published": false,
+      "authorId": "user-2"
+    },
+    {
+      "id": "post-3",
+      "title": "Machine Learning using TensorFlow",
+      "content": "Building cool stuff with TensorFlow",
+      "published": false,
+      "authorId": "user-3"
+    },
+    {
+      "id": "post-4",
+      "title": "",
+      "content": "...",
+      "published": false,
+      "authorId": "user-3"
+    }
+  ]
+}
